@@ -1,0 +1,28 @@
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    padding-top: 40px;
+    margin-bottom: 0;
+    list-style: none;
+    background-image:url("1Nav.jpeg");
+   
+}
+
+a {
+    color: White;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 34px;
+    
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
