@@ -1,0 +1,41 @@
+.row {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  .col-sm-6 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  .col-sm-4 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  .col-sm-8 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  .col-sm-3 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  
+  .col-sm-9 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  .col-md-4 {
+    border: 1px solid black;
+    height: 200px;
+  }
+  .table {
+    width: 400px;
+  }
+  
+  /*.table table-striped will create a striped table.
+  .table table-bordered will add borders to all the table cells.
+  .table table-hover Enables a hover state on table rows within a <tbody> element.
+  .table table-condensed allows you to save space by condensing the table cell padding in half.*/
