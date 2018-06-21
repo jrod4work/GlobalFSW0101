@@ -35,6 +35,13 @@
     width: 400px;
   }
   
+  form {
+    width: 400px;
+  }
+
+  .jumbotron {
+    width: 500px;
+  }
   /*.table table-striped will create a striped table.
   .table table-bordered will add borders to all the table cells.
   .table table-hover Enables a hover state on table rows within a <tbody> element.

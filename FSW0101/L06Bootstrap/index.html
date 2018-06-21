@@ -7,10 +7,55 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
-
+<a href="2.html">2nd</a>
 <body>
-    <h1 align="center">Hello, world!</h1>
+        <ul class="nav nav-pills nav-stacked">
+                <li class="active">
+                    <a href="#">
+                        <span class="glyphicon glyphicon-home"></span> Home</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-user"></span> Profile</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="glyphicon glyphicon-envelope"></span> Messages</a>
+                </li>
+            </ul>
+    <h1 align="center">Invoices</h1>
+    <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Profile</a>
+            </li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Messages
+                    <b class="caret"></b>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#">Inbox</a>
+                    </li>
+                    <li>
+                        <a href="#">Drafts</a>
+                    </li>
+                    <li>
+                        <a href="#">Sent Items</a>
+                    </li>
+                    <li>
+                        <a href="#">Trash</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
 
+       
+
+                <br>
+                <br>
     <div class="container">
         <!--Row with two equal columns-->
         <div class="row">
@@ -44,18 +89,42 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-4"><p>Box A</p></div>
-            <div class="col-md-4"><p>Box B</p></div>
-            <div class="col-md-4"><p>Box C</p></div>
-            <div class="col-md-4"><p>Box D</p></div>
-            <div class="col-md-4"><p>Box E</p></div>
-            <div class="col-md-4"><p>Box F</p></div>
-            <div class="col-md-4"><p>Box G</p></div>
-            <div class="col-md-4"><p>Box H</p></div>
-            <div class="col-md-4"><p>Box I</p></div>
-            <div class="col-md-4"><p>Box J</p></div>
-            <div class="col-md-4"><p>Box K</p></div>
-            <div class="col-md-4"><p>Box L</p></div>
+            <div class="col-md-4">
+                <p>Box A</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box B</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box C</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box D</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box E</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box F</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box G</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box H</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box I</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box J</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box K</p>
+            </div>
+            <div class="col-md-4">
+                <p>Box L</p>
+            </div>
         </div>
     </div>
     <table class="table">
@@ -119,9 +188,114 @@
             </tr>
         </tbody>
     </table>
+
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label for="Email" class="control-label col-xs-2">Email</label>
+            <div class="col-xs-10">
+                <input type="email" class="form-control" id="Email" placeholder="Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="Password" class="control-label col-xs-2">Password</label>
+            <div class="col-xs-10">
+                <input type="password" class="form-control" id="Password" placeholder="Password">
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> Remember me</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-xs-offset-2 col-xs-10">
+                <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+        </div>
+    </form>
+    <form class="form-inline">
+        <div class=" form-group ">
+            <label for="Email ">Email</label>
+            <input type="email " class="form-control " id="Email " placeholder="Email ">
+        </div>
+        <div class="form-group">
+            <label for="Password ">Password</label>
+            <input type="password " class="form-control " id="Password " placeholder="Password ">
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit " class="btn btn-primary ">Login</button>
+    </form>
+<br>
+    <button type="button" class="btn btn-default">Default</button>
+
+    <button type="button" class="btn btn-primary">Primary</button>
+
+    <button type="button" class="btn btn-info">Info</button>
+
+    <button type="button" class="btn btn-success">Success</button>
+
+    <button type="button" class="btn btn-warning">Warning</button>
+
+    <button type="button" class="btn btn-danger">Danger</button>
+
+    <button type="button" class="btn btn-link">Link</button>
+
+    <button type="button" class="btn btn-default btn-lg">Default</button>
+
+    <!-- sizes of buttons: btn-lg, btn-sm, or btn-xs.-->
+
+    <button type="button" class="btn btn-default btn-lg btn-block">Default</button>
+    <span class="glyphicon glyphicon-class-name"></span>
+    <button type="submit" class="btn btn-primary">
+        <span class="glyphicon glyphicon-trash"></span> Delete</button>
+
+        <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                         <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">X</button>
+                            <h4 class="modal-title">Confirmation</h4>
+                         </div>
+                         <div class="modal-body">
+                            <p>WARNING!!!!</p>
+                         </div>
+                         <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                    <div class="jumbotron">
+                        <h1>Hello, world!</h1>
+                        <p>Today is a good day!</p>
+                    </div>
+                </div>
+
+            <!--
+modal fade - This fades the modal in and out.
+modal-dialog - Sets the width as well as horizontal and vertical alignment of the modal box.
+modal-content - Sets the styles like text and background color, borders, rounded corners, etc.
+modal-header - Used to show emphasis on the header of the modal.
+modal-title - The title used in the header.
+modal-body - Separates the body from the footer and header.
+modal-footer - Separates the footer from the body.-->
+        
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
