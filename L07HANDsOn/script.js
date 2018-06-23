@@ -1,3 +1,5 @@
+//https://www.youtube.com/watch?v=buWm-b1o6RA
+
 function validateFirstName() {
     var name = document.getElementById("commentName").value;
 
@@ -7,9 +9,9 @@ function validateFirstName() {
       return false;
     }
 
-    if(!name.match(/^[A-Z][a-z]*$/g))
+    if(!name.match(/^[A-Z][a-z]+$/g))
     {
-        producePrompt("First Name Please", "commentNamePrompt", "red");
+        producePrompt("First Name Please (more than one character)", "commentNamePrompt", "red");
         return false;
     }
 
@@ -32,9 +34,9 @@ function validateLastName() {
     return false;
   }
 
-  if(!lastname.match(/^[A-Z][a-z]*$/g))
+  if(!lastname.match(/^[A+-Z][a-z]+$/g))
   {
-      producePrompt("First Name Please", "commentLastNamePrompt", "red");
+      producePrompt("Last Name Please (more than one character)", "commentLastNamePrompt", "red");
       return false;
   }
 
