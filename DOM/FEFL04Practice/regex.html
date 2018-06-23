@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+</head>
+
+<body>
+<!--Removing ChildNode-->
+    <div id="div1">
+        <p id="p1">Hi! I'm a paragraph.</p>
+        <p id="p2">Hello! I'm another paragraph.</p>
+    </div>
+<!--Adding div element-->
+    <button onclick="addAChild()">Add a div element to the container!</button>
+    <button onclick="adding()">Add a div element to the container!</button>
+
+<!--Adding div element-->
+
+    <p>Click the button to remove the first item from the list.</p>
+    <ul id="myList">
+        <div id="container"></div>
+        <div id="container2"></div>
+        <li>JavaScript</li>
+        <li>C#</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Ruby</li>
+    </ul>
+    <button onclick="myFunction()">Try it</button>
+<!--Regex
+Programmer - Matches "I am a Programmer and Analyst"
+^Programming - Matches strings that start with the word Programming. For example, "Programming is what I do!". It will NOT match "I am good at Programming."
+Programmer$ - Matches strings that end with the word Programmer. For example, "I love being a Programmer". It will NOT match "She's a Programmer too."
+^Programmer$ - Will ONLY match the word Programmer, and nothing else.
+
+[0-9a-zA-Z]
+The snippet above will match any digit or uppercase and lowercase letter.
+[^a-zA-Z] 
+Will look for a not listed character
+
+. - Any character except a newline.
+\n - A newline character.
+\r - A carriage return character.
+\t - A tab character.
+\b - A word boundary (the start or end of a word).
+\B - Anything but a word boundary.
+\d - Any digit (same as [0-9]).
+\D - Anything but a digit (same as [^0-9]).
+\s - Single whitespace (space, tab, newline, etc.).
+\S - Single nonwhitespace.
+\w - A "word character" (same as [A-Za-z0-9_]).
+\W - A "nonword character" (same as [^a-za-z0-9_]).
+
+Regex
+
+. - any character except newline
+\w \d \s - word, digit, whitespace
+\W \D \S - not word, not digit, not whitespace
+[abc] - any of a, b, or c
+[^abc] - not a, b, or c
+[a-g] - character range between a & g
+[0-9] - number range between 0 and 9
+-->
+<br>
+<br><br>
+<label for="number">Number: </label>
+<input id="phNumber">
+<p>(xxx) xxx-xxxx</p>
+<button onclick="phoneNumberFormat()">Submit</button>
+
+    <script src="js.js"></script>
+</body>
+
+</html>
