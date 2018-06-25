@@ -1,15 +1,10 @@
-$(document).ready(function() {
-    $("#driver").click(function(event) {
-      $("#stage").load("info.html");
-    });
-  });
-
-  let newObj = JSON.parse('{ "name":"John", "age":30, "city":"Arizona"}');
-
-  newObj = {
-    name: "John",
-    age: 30,
-    city: "Arizona"
+function loadDoc() {
+  const xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("example").innerHTML = this.responseText;
+    }
   };
-
-  console.log( newObj.name)
+  xhttp.open("GET", "info.txt", true);
+  xhttp.send();
+}

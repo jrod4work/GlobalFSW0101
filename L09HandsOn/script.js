@@ -9,3 +9,4 @@ newRequest.onreadystatechange = function() {
 };
 newRequest.open("GET", "einstein.json", true);
 newRequest.send();
+
