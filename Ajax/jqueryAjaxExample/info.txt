@@ -1,3 +1,0 @@
-
-This text was changed using an asynchronous AJAX request
-
