@@ -1,7 +1,6 @@
 
-
 body {
-    background-image:url(triangle-wallpapers-25326-5238186.jpg);
+    background-image:url(images/triangle-wallpapers-25326-5238186.jpg);
 }
 
 
@@ -79,7 +78,7 @@ body {
 
   /* End of Header styling */
 
-   /* List */
+   /* Lists */
  
    li, h1{
     display: flex;
@@ -106,8 +105,29 @@ body {
     border-width: 2px;
     margin-left: 300px;
     margin-right: 300px;
+    margin-bottom: 56px;
     background-color: #f6dec294;
+    padding-left: 0px;
 
     
    }
   
+  /* Footer */
+
+   .footer {
+    position: fixed;
+    left: 0;
+    bottom: -7px;
+    width: 100%;
+    background-color: #61497bd1;
+    color: white;
+    text-align: center;
+    height: 56px;
+    font-size: 24px;
+ }
+
+ .pfoot {
+     color:white;
+     margin-top: 6px;
+ 
+ }
