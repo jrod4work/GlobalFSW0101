@@ -41,3 +41,25 @@ function addRepo(name){
     node.appendChild(textNode);
     document.getElementById("repoList").appendChild(node);
 }
+
+/* function loadRepo() {
+    const xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            results = JSON.parse(this.responseText);
+            for (var i = 0; i < results.length; i++) {
+                console.log(results[i].name);
+                console.log(results);
+                var ul = document.getElementById('repos');
+                var li = document.createElement('li');
+                var a = document.createElement('a');
+                li.appendChild(document.createTextNode(results[i].name));
+                a.appendChild(li);
+                a.setAttribute('href', results[i].html_url);
+                ul.appendChild(a);
+            }
+        }
+    };
+    xhttp.open('GET', 'repo link here', true);
+    xhttp.send();
+} */
