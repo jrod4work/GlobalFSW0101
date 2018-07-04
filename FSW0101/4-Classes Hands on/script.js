@@ -47,7 +47,7 @@ class SalesAssociate extends Employee {
 }
 
 let Man = new Manager("JohnManager",50,8000,"12/24/2050");
-Man.getName();
+Man.getName(); //this acts like console.log
 Man.yearsExperience();
 Man.getSalary();
 Man.getHireDate();
@@ -64,6 +64,8 @@ sales.getName();
 sales.jobDescription();
 sales.getSalary();
 sales.getHireDate();
+
+
 /*Manager
 Designer
 SalesAssociate
