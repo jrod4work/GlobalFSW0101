@@ -16,7 +16,7 @@ class Employee {
   }
 
 class Manager extends Employee {
-    constructor(name, Experience, salary, hireDate) {
+    constructor(name, Experience, salary, hireDate) { 
         super(name, salary, hireDate);
         this.Experience = Experience;
     }
